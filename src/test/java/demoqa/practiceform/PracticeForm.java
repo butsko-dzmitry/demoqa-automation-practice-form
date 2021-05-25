@@ -60,7 +60,8 @@ public class PracticeForm {
         // Assertions
         $(".modal-body")
                 .shouldHave(text(firstName + " " + lastName),
-                            text(userMail), text("Male"),
+                            text(userMail),
+                            text("Male"),
                             text(userNumber),
                             text("04 September,1995"),
                             text(subject),
